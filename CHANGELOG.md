@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+- Changed package's name to `useragent`. See [b486b63b54cb](https://github.com/mssola/useragent/commit/b486b63b54cbbc69cdf72a38842be4b9e6537e53).
+- Renamed default branch to `main`. See [7e944763aee7](https://github.com/mssola/useragent/commit/7e944763aee796efcf4eec461abfbe7ec5fadc18).
+
 ## 0.6.0
 
 - Added information on the model of mobile devices. See [746647ad73b5](https://github.com/mssola/useragent/commit/746647ad73b5ad8648175bbd07319c0a8ac559c6).
