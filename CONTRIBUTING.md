@@ -25,7 +25,7 @@ code. Thus, in order to report issues you can do it on its [issue
 tracker](https://github.com/mssola/useragent/issues). A couple of notes on
 reports:
 
-- Check that the issue has not already been reported or fixed in `master`.
+- Check that the issue has not already been reported or fixed in `main`.
 - Try to be concise and precise in your description of the problem.
 - Provide a step by step guide on how to reproduce this problem.
 - Provide the version you are using (the commit SHA, if possible).
