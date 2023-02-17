@@ -2,11 +2,11 @@
 // This file is licensed under the MIT license.
 // See the LICENSE file.
 
-// Package user_agent implements an HTTP User Agent string parser. It defines
+// Package useragent implements an HTTP User Agent string parser. It defines
 // the type UserAgent that contains all the information from the parsed string.
 // It also implements the Parse function and getters for all the relevant
 // information that has been extracted from a parsed User Agent string.
-package user_agent
+package useragent
 
 import "strings"
 

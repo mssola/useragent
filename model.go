@@ -1,4 +1,4 @@
-package user_agent
+package useragent
 
 import (
 	"strings"

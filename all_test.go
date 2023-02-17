@@ -2,7 +2,7 @@
 // This file is licensed under the MIT license.
 // See the LICENSE file.
 
-package user_agent
+package useragent
 
 import (
 	"fmt"

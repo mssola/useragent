@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/mssola/user_agent/actions/workflows/ci.yml" title="Travis CI status for the default branch"><img src="https://github.com/mssola/user_agent/actions/workflows/ci.yml/badge.svg" alt="Build Status for the default branch" /></a>
-  <a href="https://pkg.go.dev/github.com/mssola/user_agent" title="go.dev page"><img src="https://pkg.go.dev/badge/github.com/mssola/user_agent" alt="go.dev page" /></a>
+  <a href="https://github.com/mssola/useragent/actions/workflows/ci.yml" title="Travis CI status for the default branch"><img src="https://github.com/mssola/useragent/actions/workflows/ci.yml/badge.svg" alt="Build Status for the default branch" /></a>
+  <a href="https://pkg.go.dev/github.com/mssola/useragent" title="go.dev page"><img src="https://pkg.go.dev/badge/github.com/mssola/useragent" alt="go.dev page" /></a>
   <a href="https://en.wikipedia.org/wiki/MIT_License" rel="nofollow"><img alt="MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" style="max-width:100%;"></a>
 </p>
 
@@ -14,14 +14,14 @@ package main
 import (
     "fmt"
 
-    "github.com/mssola/user_agent"
+    "github.com/mssola/useragent"
 )
 
 func main() {
     // The "New" function will create a new UserAgent object and it will parse
     // the given string. If you need to parse more strings, you can re-use
     // this object and call: ua.Parse("another string")
-    ua := user_agent.New("Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1")
+    ua := useragent.New("Mozilla/5.0 (Linux; U; Android 2.3.7; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1")
 
     fmt.Printf("%v\n", ua.Mobile())   // => true
     fmt.Printf("%v\n", ua.Bot())      // => false
@@ -52,12 +52,12 @@ func main() {
 ```
 
 If you want to read the full API documentation simply check
-[godoc](https://pkg.go.dev/github.com/mssola/user_agent).
+[godoc](https://pkg.go.dev/github.com/mssola/useragent).
 
 ## Installation
 
 ```
-go get -u github.com/mssola/user_agent
+go get -u github.com/mssola/useragent
 ```
 
 ## Contributing
